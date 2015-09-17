@@ -1,0 +1,1 @@
+echo "32432423-feature" | awk -F"-|\*| " '/-/ {print$3}'
